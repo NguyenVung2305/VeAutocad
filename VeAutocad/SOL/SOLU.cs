@@ -26,8 +26,8 @@ namespace VeAutocad.SOL
            P2.X=P1.X+(H+K)*V1.X;
            P2.Y=P1.Y+(H+K)*V1.Y;
 
-           P2.X = P1.X + (H - K) * V1.X;
-           P2.Y = P1.Y + (H - K) * V1.Y;
+           P3.X = P1.X + (H - K) * V1.X;
+           P3.Y = P1.Y + (H - K) * V1.Y;
 
         }
 
