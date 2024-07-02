@@ -30,5 +30,10 @@ namespace VeAutocad.SOL
            P2.Y = P1.Y + (H - K) * V1.Y;
 
         }
+
+        public void SaveToDB()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
