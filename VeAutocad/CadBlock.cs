@@ -13,7 +13,7 @@ namespace VeAutocad
      public Point2d InsertPoint { get; set; }
      public   void Insert(string Name)
         {
-            // su dung InsertPoint va Matrix de tinh toan vi tri insert
+            // su dung InsertPoint va Matrix de tinh toan vi tri insert tam thoi chua tinh toan
             Console.WriteLine($" Insert {Name} Successful ");
         }
 
